@@ -1,0 +1,33 @@
+.auth-bg{
+    background: url('../img/bg1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.box{
+    min-width: 12vh;
+    background-color: rgba(161, 145, 145,0.1);
+    backdrop-filter: blur(5px);
+}
+input{
+    background-color: transparent;
+    border: transparent;
+}
+input:focus{
+    background-color: transparent;
+    border: transparent;
+}
+button{
+    width: 15vh;
+    border-radius: 1vh;
+}
+input:focus {
+    outline: transparent;
+}
+.user{
+    font-size: x-large;
+}
+.del-btn{
+    width: 100%;
+}
